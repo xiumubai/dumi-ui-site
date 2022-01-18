@@ -13,6 +13,24 @@
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
+  "description": "桌面和移动端react组件库",
+  "homepage": "https://xiumubai.github.io/",
+  "repository": "https://github.com//",
+  "bugs": {
+    "url": "https://github.com//issues"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "components",
+    "hooks",
+    "frontend",
+    "react-component",
+    "ui",
+    "pc",
+    "mobile",
+    "css-in-js"
+  ],
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
@@ -41,5 +59,6 @@
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
-  }
+  },
+  "license": "MIT"
 }
