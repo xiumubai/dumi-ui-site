@@ -8,9 +8,12 @@ export default defineConfig({
   outputPath: 'docs-dist',
   mode: 'site',
   description: '描述',
-  locales: [['zh-CN', '中文'], ['en-US', 'English']],
+  locales: [
+    ['zh-CN', '中文'],
+    ['en-US', 'English'],
+  ],
   devServer: {
-    port: 3000
-  }
+    port: 3001,
+  },
   // more config: https://d.umijs.org/config
 });

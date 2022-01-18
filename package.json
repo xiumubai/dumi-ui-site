@@ -1,7 +1,6 @@
 {
-  "private": true,
   "name": "dumi-ui-test-site",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -14,10 +13,10 @@
     "prepublishOnly": "npm run build"
   },
   "description": "桌面和移动端react组件库",
-  "homepage": "https://xiumubai.github.io/",
-  "repository": "https://github.com//",
+  "homepage": "https://github.com/xiumubai/dumi-ui-site",
+  "repository": "https://github.com/xiumubai/dumi-ui-site",
   "bugs": {
-    "url": "https://github.com//issues"
+    "url": "https://github.com/xiumubai/dumi-ui-site/issues"
   },
   "keywords": [
     "react",
@@ -31,6 +30,7 @@
     "mobile",
     "css-in-js"
   ],
+  "main": "es/index.js",
   "module": "es/index.js",
   "typings": "es/index.d.ts",
   "gitHooks": {
