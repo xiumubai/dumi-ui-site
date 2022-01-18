@@ -1,8 +1,8 @@
 ---
-title: Button 按钮
+title: Block 布局块
 order: 0
 group:
-  title: 基础组件
+  title: 容器组件
 nav:
   title: '组件'
   path: /components
@@ -10,6 +10,6 @@ nav:
 
 ## Demo
 
-<code src="../../demo/Button/index.jsx"></code>
+<code src="../../demo/Block/index.jsx"></code>
 
 <API src="./index.tsx"></API>
